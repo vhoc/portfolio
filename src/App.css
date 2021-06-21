@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+.App {
+  text-align: center;
+}
+
+
+
+.App-header {
+  background-image: url( './assets/img/header.jpg' );
+  background-color: #cacaca;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 35vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;  
+  font-family: 'PT Sans';
+  text-shadow: 2px 2px 6px #000;
+
+  text-align: center;
+  margin: 0px auto;
+}
+
+/*
+.App-header::after {
+  content: '';
+  position: relative;
+  height:150px; 
+  width: 150px;
+  background:url("./assets/img/vhoc.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  border: solid 5px;
+  top: 0px;
+}
+*/
+
+
+.App-header > h2 {
+  text-transform: uppercase;
+  margin-bottom: 0px;
+}
+
+.App-header > p {
+  margin-top: 0px;
+  font-size: calc(4px + 2vmin);
+}
+
+.Profile-pic {
+  width: 150px;
+  border-radius: 50%;
+  border: #fff;
+  border-style: solid;
+  border-width: 5px;
+  z-index: 10px;
+  margin-top: -90px;
+}
+
+.about {
+  color: #000;
+}
+
+.short-description {
+  color:orange;
+  font-weight: 700;
+}
+
+.brief {
+  color: black;
+  font-size: calc(7px + 1vmin);
+}
+
+.card-block > p {
+  font-size: calc(6px + 1vmin);
+}
