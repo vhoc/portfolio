@@ -1,0 +1,18 @@
+.nav-link {
+    display: block;
+    padding: .5rem 1rem;
+    color:black;
+}
+
+.nav-link:hover {
+    color: darkgrey;
+}
+
+.nav-link:focus {
+    color: purple;
+    font-weight: bolder;
+}
+
+.tab-content {
+    background-color: #666666;
+}
