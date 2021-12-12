@@ -9,9 +9,7 @@ import Github from "./portfolio-components/Github";
 import Webfolio from "./portfolio-components/Webfolio";
 import Contact from "./portfolio-components/Contact";
 
-const Portfolio = () => {
-
-    
+const Portfolio = () => {   
 
     return (
 
@@ -30,12 +28,12 @@ const Portfolio = () => {
 
                                         <Nav className='flex-row justify-content-center'>
 
-                                            <Nav.Item className='col-3'>
-                                                <Nav.Link eventKey='first'>
+                                            <Nav.Item className='col-4 col-sm-4 col-md-4'>
+                                                <Nav.Link eventKey='first' className='px-0'>
                                                 <div className="card text-center h-100">
                                                     <div className="card-block p-2">
                                                     <h4 className="card-title">Github</h4>
-                                                    <h2><FontAwesomeIcon icon={faGithub} size="3x"/></h2>
+                                                    <h2><FontAwesomeIcon icon={faGithub} size="sm-2x md-3x"/></h2>
                                                     <p>
                                                         Code repositories
                                                     </p>
@@ -44,24 +42,24 @@ const Portfolio = () => {
                                                 </Nav.Link>
                                             </Nav.Item>
 
-                                            <Nav.Item className='col-3'>
-                                                <Nav.Link eventKey='second'>
+                                            <Nav.Item className='col-4 col-sm-4 col-md-4'>
+                                                <Nav.Link eventKey='second' className='px-0'>
                                                 <div className="card text-center h-100">
                                                     <div className="card-block p-2">
                                                     <h4 className="card-title">Webfolio</h4>
-                                                    <h2><FontAwesomeIcon icon={faAtlas} size="3x"/></h2>
+                                                    <h2><FontAwesomeIcon icon={faAtlas} size="sm-2x md-3x"/></h2>
                                                     <p>Websites I've made or contributed to</p>
                                                     </div>
                                                 </div>
                                                 </Nav.Link>
                                             </Nav.Item>
 
-                                            <Nav.Item className='col-3'>
-                                                <Nav.Link eventKey='third'>
+                                            <Nav.Item className='col-4 col-sm-4 col-md-4'>
+                                                <Nav.Link eventKey='third' className='px-0'>
                                                 <div className="card text-center h-100">
                                                     <div className="card-block p-2">
                                                     <h4 className="card-title">Contact</h4>
-                                                    <h2><FontAwesomeIcon icon={faEnvelopeOpenText} size="3x"/></h2>
+                                                    <h2><FontAwesomeIcon icon={faEnvelopeOpenText} size="sm-2x md-3x"/></h2>
                                                     <p>
                                                         Send me a message
                                                     </p>
