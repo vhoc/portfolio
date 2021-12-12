@@ -13,7 +13,7 @@ const Webfolio = () => {
 
         <div className='d-flex content flex-column justify-content-center'>
 
-            <h1>Websites Porfolio</h1>
+            <h1>Websites Portfolio</h1>
 
             <div className='d-flex content flex-wrap justify-content-center mt-3'>
                 
