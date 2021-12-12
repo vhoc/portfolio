@@ -17,3 +17,28 @@
     margin-top: 1rem;
     background-color: white;
 }
+
+@media only screen and (min-width: 0px) {
+    .menu-card {
+        height: 130px;
+    }
+
+    .card-title {
+        font-size: 0.7em;
+    }
+
+    .card-title p {
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (min-width: 469px) {
+
+    .card-title {
+        font-size: 1.5em;
+    }
+
+    .card-title p {
+        font-size: 0.7em;
+    }
+}

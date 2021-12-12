@@ -11,7 +11,7 @@ const Github = () => {
                 <span><FontAwesomeIcon icon={faGithub} size="3x"/></span>
                 <h1>Github repositories</h1>
 
-                <div className='d-flex justify-content-center p2'>
+                <div className='d-flex flex-wrap justify-content-around p-1'>
 
                    <GithubRepo
                     name='Paxvox'
@@ -22,6 +22,8 @@ const Github = () => {
                    />
 
                    <GithubRepo
+
+
                     name='Paxvox API'
                     shortDescription='The backend for the afore-mentioned satisfaction poll system.'
                     technology='Laravel Lumen'

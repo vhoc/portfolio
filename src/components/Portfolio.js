@@ -29,8 +29,8 @@ const Portfolio = () => {
                                         <Nav className='flex-row justify-content-center'>
 
                                             <Nav.Item className='col-4 col-sm-4 col-md-4'>
-                                                <Nav.Link eventKey='first' className='px-0'>
-                                                <div className="card text-center h-100">
+                                                <Nav.Link eventKey='first' className='px-0 px-sm-2' href='#portfolio-menu'>
+                                                <div className="card menu-card text-center">
                                                     <div className="card-block p-2">
                                                     <h4 className="card-title">Github</h4>
                                                     <h2><FontAwesomeIcon icon={faGithub} size="sm-2x md-3x"/></h2>
@@ -43,8 +43,8 @@ const Portfolio = () => {
                                             </Nav.Item>
 
                                             <Nav.Item className='col-4 col-sm-4 col-md-4'>
-                                                <Nav.Link eventKey='second' className='px-0'>
-                                                <div className="card text-center h-100">
+                                                <Nav.Link eventKey='second' className='px-0 px-sm-2' href='#portfolio-menu'>
+                                                <div className="card menu-card text-center">
                                                     <div className="card-block p-2">
                                                     <h4 className="card-title">Webfolio</h4>
                                                     <h2><FontAwesomeIcon icon={faAtlas} size="sm-2x md-3x"/></h2>
@@ -55,8 +55,8 @@ const Portfolio = () => {
                                             </Nav.Item>
 
                                             <Nav.Item className='col-4 col-sm-4 col-md-4'>
-                                                <Nav.Link eventKey='third' className='px-0'>
-                                                <div className="card text-center h-100">
+                                                <Nav.Link eventKey='third' className='px-0 px-sm-2' href='#portfolio-menu'>
+                                                <div className="card menu-card text-center">
                                                     <div className="card-block p-2">
                                                     <h4 className="card-title">Contact</h4>
                                                     <h2><FontAwesomeIcon icon={faEnvelopeOpenText} size="sm-2x md-3x"/></h2>
