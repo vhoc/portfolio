@@ -26,9 +26,9 @@ const Webfolio = () => {
 
                 <WebfolioSite
                     image={venkamx}
-                    url='https://venka.mx/temporal'
+                    url='https://venka.mx/'
                     technology='Pure HTML/CSS/JS'
-                    description='Self-hosted in an AWS linux instance. (Not yet published)'
+                    description='Self-hosted in an AWS linux instance.'
                 />
 
                 <WebfolioSite
